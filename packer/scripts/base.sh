@@ -6,6 +6,7 @@ echo 'options single-request-reopen' >> /etc/resolv.conf
 yum clean all
 yum makecache
 yum -y update
-yum -y install gcc make gcc-c++ bzip2 kernel-devel-`uname -r` perl wget
+yum -y install epel-release
+yum -y install gcc make gcc-c++ bzip2 kernel-devel-`uname -r` perl wget dkms
 
 echo "UseDNS no" >> /etc/ssh/sshd_config
