@@ -1,4 +1,4 @@
-# Vagrant CentOS Base Boxes
+# Vagrant CentOS-7 Base Boxes
 
 ## Downloads
 
@@ -11,6 +11,12 @@ $ cd packer
 $ ./build.sh
 ```
 
+OR
+
+```sh
+$ cd packer
+$ ./build.sh 7.2
+```
 ## Definitions
 
 - Minimal CentOS installation

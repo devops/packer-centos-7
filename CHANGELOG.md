@@ -1,3 +1,9 @@
+## v20170523 / 2017-05-23
+
+* Software Version
+  * CentOS 7.3(Update)
+  * VirtualBox Guest Additions 5.1.22
+
 ## v20160530 / 2016-05-30
 
 * Modification
