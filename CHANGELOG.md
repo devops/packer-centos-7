@@ -1,3 +1,12 @@
+## v20170524 / 2017-05-24
+
+* Modification
+  * Change the kernel-devel package to use the lastest version
+
+* Software Version
+  * CentOS 7.3(Update)
+  * VirtualBox Guest Additions 5.1.22
+
 ## v20170523 / 2017-05-23
 
 * Software Version
@@ -9,7 +18,6 @@
 * Modification
   * Install epel-release dkms
   * Zero out the rest of the free space
-
 
 * Software Version
   * CentOS 7.2(Update)

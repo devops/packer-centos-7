@@ -7,6 +7,6 @@ yum clean all
 yum makecache
 yum -y update
 yum -y install epel-release
-yum -y install gcc make gcc-c++ bzip2 kernel-devel-`uname -r` perl wget dkms
+yum -y install gcc make gcc-c++ bzip2 kernel-devel perl wget dkms
 
 echo "UseDNS no" >> /etc/ssh/sshd_config
